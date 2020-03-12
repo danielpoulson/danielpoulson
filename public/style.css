@@ -2,7 +2,8 @@ body {
   background-color: #fafafa;
 }
 
-.poem__body {
+.poem__body,
+.letter {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
 }
@@ -13,7 +14,8 @@ body {
   font-weight: 700;
 }
 
-.card {
+.card_poem,
+.card_letter {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -24,9 +26,24 @@ body {
   padding-right: 15px;
   background-clip: border-box;
   border-radius: 0;
-  border-bottom: 3px solid #32d17e;
+}
+.card_poem {
+  border-bottom: 5px solid #32d17e;
+}
+
+.card_letter {
+  border-bottom: 5px solid #f65314;
 }
 
 .long_line {
   padding-bottom: 1px;
+}
+
+.letter {
+  padding-top: 50px;
+}
+
+.letter p {
+  padding-bottom: 1px;
+  padding-top: 1px;
 }

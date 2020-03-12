@@ -1,0 +1,32 @@
+body {
+  background-color: #fafafa;
+}
+
+.poem__body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+}
+
+.card-title {
+  font-family: 'Alegreya', serif;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-clip: border-box;
+  border-radius: 0;
+  border-bottom: 3px solid #32d17e;
+}
+
+.long_line {
+  padding-bottom: 1px;
+}
